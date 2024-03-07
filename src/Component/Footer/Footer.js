@@ -3,7 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
-
+import "./Footer.css"
 
 function footer() {
   return (

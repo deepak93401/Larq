@@ -1,0 +1,70 @@
+
+#Brilliant{
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 30px;
+}
+.B-main{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   /* gap: 10px; */
+}
+.main-left{
+ width: 23%;
+
+}
+.main-right{
+   width: 76%;
+
+   
+}
+
+.Brill{
+   padding: 20px;
+}
+.Sub-brill h1{
+   font-size: 60px;
+   color: #153a5b;
+ font-weight: 600;
+ margin-top: 50px;
+}
+.Sub-brill span{
+   font-size: 18px;
+   color:rgb(243, 117, 109);
+ font-weight: 600;
+}
+.Sub-brill p{
+   /* font-size: 1px; */
+   color:#485259;
+   word-spacing: 2px;
+   margin-top: 10px;
+ 
+}
+.Brill-btn{
+   border-style: solid;
+   border-width: 1px;
+   border-color: #d9e2e9;
+   border-radius: 50px;
+   background-color: transparent;
+   color: #153a5b;
+   font-weight: 600;
+   padding: 0.8rem 1.06667rem;
+   display: flex;
+   align-items: center;
+   gap: 1.06667rem;
+   margin-top: 30px;
+   
+}
+.Brill-right h6{
+   font-size: clamp(1.06667rem, calc(1.06667rem + (4) * ((100vw - 428px) / (1920 - 428))), 1.33333rem);
+   line-height: clamp(1.6rem, calc(1.6rem + (8) * ((100vw - 428px) / (1920 - 428))), 2.13333rem);
+   margin-bottom: clamp(3.75rem, 0.046rem + 18.519vw, 5rem);
+   height: 100px;
+   color: #153a5b;
+}
+.Brill-right img{
+   width: 100px;
+   height: 30px;
+
+}

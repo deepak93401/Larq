@@ -381,7 +381,7 @@ function Trending() {
                       
                       <h1>Jolly Good Swing</h1>
                       <p>{sliderdata.value}</p>
-                      <
+                      
                       <div className='img-wrapper'>
                         {
                           imgdata.map((data, i) => (

@@ -1,0 +1,67 @@
+@media screen and (max-width:1440px){
+    .B-main{
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        /* gap: 10px; */
+    }
+    .main-left{
+      width: 100%;
+  
+    }
+    .main-right{
+        width: 100%;
+       
+    }
+    .Brill-left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Brill-right{
+        background: #f5f9fc;
+    }
+    .Shop_img{
+        height: 500px;
+    }
+    
+    
+  
+}
+
+
+
+@media screen and (max-width:772px){
+   
+    .Brill-right h6{
+        height: 70px;
+        font-size: 16px;
+    }
+    .Sub-brill h1 {
+        font-size: 50px;
+       
+    }
+  
+
+}
+
+
+@media screen and (max-width:600px){
+   
+   
+    .Sub-brill h1 {
+        font-size: 40px;
+       
+    }
+    .Brill-btn{
+        display: none;
+     }
+     .Brill-right h6{
+        height: 70px;
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width:500px){
+  
+}

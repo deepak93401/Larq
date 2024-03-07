@@ -1,6 +1,8 @@
 import React from 'react'
-import data from './Data'
+import data from '../Larqdata/Data'
 import Trending2 from './Trending2'
+import "./Trending2.css"
+import "./Trendmedia.css"
 function Trend() {
   return (
     <>

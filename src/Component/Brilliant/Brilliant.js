@@ -1,9 +1,11 @@
 import React from 'react'
 import { IoIosStar } from "react-icons/io";
-import Strategist from "./img/strategist.png"
-import oprah from "./img/oprah_Magazine.png"
-import Digital from "./img/digital_trends.png"
-import Bplogo from "./img/BP-logo-black.png"
+import Strategist from "../img/strategist.png"
+import oprah from "../img/oprah_Magazine.png"
+import Digital from "../img/digital_trends.png"
+import Bplogo from "../img/BP-logo-black.png"
+import "./Brilliant.css"
+import "./Brimedia.css"
 import { FaLongArrowAltRight } from "react-icons/fa";
 function Brilliant() {
   return (

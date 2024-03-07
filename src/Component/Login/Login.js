@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { FaEye } from "react-icons/fa"; 
 import { FaEyeSlash } from "react-icons/fa";
 import {Link} from "react-router-dom"
+import "./Login.css"
+import "./Loginmedia.css"
 
 function Login() {
   const [inputFields,SetInputField]=useState({
@@ -88,10 +90,10 @@ function Login() {
                             <input type='password' value={inputFields.password}  name='password' onChange={handlechange} />
                             {errors.password&&<p className='error'>{errors.password}</p>}
 
-                            <span className='login-icon1'><  FaEye />  </span>
-                            <span className='login-icon2'> <FaEyeSlash /></span><br></br>
+                            {/* <span className='login-icon1'><  FaEye />  </span> */}
+                            {/* <span className='login-icon2'> <FaEyeSlash /></span><br></br> */}
                          
-                            <input type="submit" value="Sign in" />
+                            <input type="submit"  value="Sign in"/>
                             <a href=''>Forgot your password?</a> 
                         </form>
                     </div>

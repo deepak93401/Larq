@@ -1,0 +1,133 @@
+#Login{
+    width: 100%;
+    padding: 30px 30px;
+   }
+   .text-center{
+    margin: 2.23333rem 0 1.75rem 0;
+    font-size: 40px;
+    word-wrap: break-word;
+    text-align: center;
+    letter-spacing: .25px;
+    color: #153a5b;
+    font-weight: 700;
+   }
+   .form-div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: #485259; */
+    margin-top: 20px;
+   }
+  form{
+    width: 50%;
+   
+    /* padding: 30px; */
+    /* background-color:palevioletred; */
+   
+
+
+  }
+  form label{
+    color: #5a5e60;
+    margin-top: 20px;
+  }
+  form input[type="text"], form input[type="password"]{
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #5a5e60;
+     margin-top: 10px;
+     /* position: relative; */
+   
+     
+  }
+  form input[type="submit"]{
+    color: #ffffff;
+    border: 3px solid #153a5b;
+    background-color: #153a5b;
+    padding: 5px 60px;
+    margin-top: 30px;
+    /* margin-left: 40px; */
+    font-weight: 600;
+
+  }
+  form input[type="submit"]:hover{
+     background-color: transparent;
+     color: #153a5b;
+     font-weight: 600;
+     
+  }
+  form input:focus{
+    outline: none;
+  }
+  form a{
+    margin-left: 10px;
+    margin-top: 0;
+    color: #5a5e60;
+
+  }
+  .login-icon1{
+    font-size: 30px;
+    position:relative;
+    bottom: 50px;
+    left: 90%;
+  }
+  .login-icon2{
+    font-size: 30px;
+    font-size: 30px;
+    position:relative;
+    bottom: 50px;
+    left: 80%;
+    display: none;
+  }
+  .form-detail{
+    width: 50%;
+    /* font-size: 16px; */
+    background-color: #e7e7e7;
+    margin-top: 20px;
+    padding: 30px;
+   
+  }
+  .form-detail h6{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #153a5b;
+    font-weight: 600;
+
+  }
+  .form-detail p{
+    margin-top: 30px;
+    list-style: inside;
+    color: #5a5e60;
+    margin-bottom: 0px;
+  }
+  .form-detail ul{
+  
+    list-style: inside;
+    color: #5a5e60;
+    margin-top: 0;
+  }
+  .form-detail a{
+    text-decoration: none;
+  }
+  .form-btn{
+    
+    color: #ffffff;
+    border: 3px solid #153a5b;
+    background-color: #153a5b;
+    padding: 5px 60px;
+    text-decoration: none;
+   
+    font-weight: 600;
+    display: block;
+
+    margin: auto;
+   
+  }
+  .form-btn:hover{
+    background-color: transparent;
+    color: #153a5b;
+    font-weight: 600;
+  }
+  
+ 

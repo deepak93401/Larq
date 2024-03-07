@@ -1,0 +1,24 @@
+@media screen and (max-width:1440px){
+   
+   
+    .Shop_img{
+        height: 500px;
+    }
+
+   
+   
+   
+    
+}
+
+@media screen and (max-width:1200px){
+    nav ul li{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+  
+
+    
+}

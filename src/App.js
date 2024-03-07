@@ -1,50 +1,59 @@
 import logo from './logo.svg';
 import './App.css';
-import "./Media.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Home';
-import Header from './Header';
-import Briliant from './Brilliant';
-import Shop from './Shop';
-// import Trending from './Trending';
-import Drinksec from './Drinksec.js';
 
-import Magazine from './Magazine';
-import Footer from './Footer.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Component/Home/Home.js';
+import Header from './Component/Header/Header.js';
+import Briliant from './Component/Brilliant/Brilliant.js';
+import Shop from './Component/Shop/Shop.js';
+// import Trending from './Trending';
+import Drinksec from './Component/Drink/Drinksec.js';
+
+import Magazine from './Component/Mazine/Magazine.js';
+import Footer from './Component/Footer/Footer.js';
 // import data from './data.js';
-import Login from "./Login.js"
-import Resistor from './Resistor.js';
+import Login from "./Component/Login/Login.js"
+import Resister from './Component/Resister/Resister.js';
 import { Route, Routes } from 'react-router-dom';
-import Trend from './Trend.js';
+import Trend from './Component/Trending/Trend.js';
 // import Swingsquad from './Swingsquad.js';
-import Trendbuy from './Trendbuy.js';
+import Trendbuy from './Component/Trending/Trendbuy.js';
+import Checkout from './Component/Checkout/Checkout.js';
+import Mission from './Component/Mission/Mission.jsx';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routes>
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Resistor" element={<Resistor />} />
+      <Header/>
+       <Routes>
+         <Route path="/Login" element={<Login />} />
+        <Route path="/Resistor" element={<Resister />} />
         <Route path="/product/:index" element={<Trendbuy/>}/>
+        <Route path="/checkout" element={  <Checkout/>} />
+        
       
         <Route path='/' element={
 
           <>  
             <Home />
             <Briliant />
-            <Shop />
-            {/* <Trending /> */}
+            <Shop /> 
+       
             <Trend/>
-            <Drinksec />
-            <Magazine />
+            <Mission/>
+           
+             <Magazine /> 
 
+        
           </>
         } />
       </Routes>
+
+      
       
     
-      <Footer />
+      <Footer /> 
 
       {/* <Resistor/> */}
 

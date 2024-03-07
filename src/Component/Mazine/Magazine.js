@@ -1,16 +1,18 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Img1 from "./img/img-1.jpg"
-import Img2 from "./img/img-2.jpg"
-import Img3 from "./img/img-3.jpg"
-import Img4 from "./img/img-4.jpg"
-import Img5 from "./img/img-5.jpg"
-import Img6 from "./img/img-6.jpg"
-import Img7 from "./img/img-7.jpg"
-import Img8 from "./img/img-8.jpg"
-import Img9 from "./img/img-9.jpg"
-import Img10 from "./img/img-10.jpg"
+import Img1 from "../img/img-1.jpg"
+import Img2 from "../img/img-2.jpg"
+import Img3 from "../img/img-3.jpg"
+import Img4 from "../img/img-4.jpg"
+import Img5 from "../img/img-5.jpg"
+import Img6 from "../img/img-6.jpg"
+import Img7 from "../img/img-7.jpg"
+import Img8 from "../img/img-8.jpg"
+import Img9 from "../img/img-9.jpg"
+import Img10 from "../img/img-10.jpg"
+import "./Mazine.css"
+import "./Mazinemedia.css"
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 function Magazine() {

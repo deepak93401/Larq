@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import "./Resister.css"
+import "./Resistermedia.css"
 
 function Resistor() {
 

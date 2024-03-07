@@ -1,0 +1,58 @@
+ /* Trend and trending2 media query  */
+ @media screen and (max-width:772px) {
+   
+    .trending_up h1 {
+       
+        font-size: 50px;
+    }
+ 
+
+}
+
+ @media screen and (max-width:600px) {
+
+    .trending_up h1 {
+       
+        font-size: 40px;
+        padding: 20px 30px;
+    }
+    .trending_up {
+        font-size: 14px;
+    }
+
+    .trending_card {
+        flex: 0 0 253px;
+    }
+
+    .trending_card h2 {
+        font-size: 16px;
+    }
+
+    .tr-card {
+        padding-left: 60px;
+    }
+    /* .trending_down{
+        padding: 0px 100px;
+    } */
+    .choice{
+        overflow-x:hidden;
+    }
+
+ 
+
+}
+/* trendtbu media */
+@media screen and (max-width:400px) {
+    .swing-con h1 {
+        font-size: 18px;
+    }
+    .swing-con span {
+        font-size:16px;
+       
+    }
+    .btn-default {
+        padding: 5px 5px;
+        margin: 0 1%;
+        font-size: 14px;
+    }
+}

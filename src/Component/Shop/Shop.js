@@ -1,7 +1,9 @@
 import React from 'react'
-import Shopimg1 from "./img/shopimg1.jpg"
-import Shopimg2 from "./img/shopimg2.jpg"
-import Shopimg3 from "./img/shopimg3.jpg"
+import Shopimg1 from "../img/shopimg1.jpg"
+import Shopimg2 from "../img/shopimg2.jpg"
+import Shopimg3 from "../img/shopimg3.jpg"
+import "./Shop.css"
+import "./Shopmedia.css"
 
 import { MdOutlineScreenRotation } from "react-icons/md";
 import { SlDrop } from "react-icons/sl";
@@ -59,6 +61,9 @@ function Shop() {
                       </div>
                    
                 </div>
+               
+               
+               
                 <div className='row Shop-div2 mt-5'>
                      <div className='col-md-4'>
                          <div className='Shopdiv-con'>

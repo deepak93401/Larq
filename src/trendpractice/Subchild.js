@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import './Trending2.css'
-import data from './Data';
-import { Link } from "react-router-dom";
-// import { useParams } from 'react-router-dom';
 
-const Trending2= ({ Props, index }) => {
+import React, { useEffect, useState } from 'react'
+import './Subchild.css'
+import data from '../Data';
+import { Link } from "react-router-dom";
+
+function Subchild({Props,index}) {
     const [img, setImg] = useState(false);
     
 
@@ -20,8 +20,9 @@ const Trending2= ({ Props, index }) => {
 
         })
     }
-    return (
-        <div className="trending_down">
+  return (
+   <>
+       <div className="trending_down">
             <Link to={`/product/${index}`}>
                 <div className='card_img'>
                     <img src={Props.img} />
@@ -41,7 +42,8 @@ const Trending2= ({ Props, index }) => {
             </div><br></br>
             <p>{Props.price}</p>
         </div>
-    )
+   </>
+  )
 }
 
-export default Trending2
+export default Subchild

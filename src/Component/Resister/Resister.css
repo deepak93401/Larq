@@ -1,0 +1,43 @@
+#Resistor{
+    width: 100%;
+    padding: 50px 30px;
+  }
+  .resistor-form{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .resistorform-div{
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    
+  }
+  .form-con{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .a{
+     /* border: 2px solid green; */
+     width: 100%;
+  }
+  .select-option{
+    width: 100%;
+     padding: 13px;
+     border: 1px solid #5a5e60;
+     margin-top: 10px;
+  }
+  .select-option:focus{
+      outline: none;
+  }
+  .form-btn2{
+    margin-top: 40px;
+  }
+  .error{
+    color: red;
+  }

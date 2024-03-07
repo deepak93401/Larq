@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaLongArrowAltLeft } from "react-icons/fa";
-import Drinkimg1 from "./img/Drinkimg1.jpg"
-import Drinkimg2 from "./img/Drinkimg2.jpg"
-import Drinkimg3 from "./img/Drinkimg3.jpg"
+import Drinkimg1 from "../img/Drinkimg1.jpg"
+import Drinkimg2 from "../img/Drinkimg2.jpg"
+import Drinkimg3 from "../img/Drinkimg3.jpg"
+import "./Drink.css"
+import "./Drinkmedia.css"
 function Drinksec() {
   
   const [left,setLeft]=useState(true)
@@ -14,9 +16,9 @@ function Drinksec() {
         <section id='Drink'>
              
              <div className='Container-fluid'>
-                     <div className='row'>
+                     <div className='main-wrapper'>
                         
-                           <div className='col-md-3'>
+                           {/* <div className='col-md-3'> */}
 
                                 <div className='drink-left'>
                                      <div className={left?"drink-con":"secleft"}>
@@ -31,9 +33,9 @@ function Drinksec() {
                                      {/* <button className='drinkleft-btn2'> <FaLongArrowAltLeft/> Back</button> */}
                                      <button className={left?"drinkleft-btn2":"secright"} onClick={()=>{setLeft(true)}}> <FaLongArrowAltLeft/> Back</button>
                                 </div>
-                           </div>
-                           <div className='col-md-9'>
-                                  <div className='row'>
+                           {/* </div> */}
+                           {/* <div className='col-md-9'> */}
+                                  {/* <div className='row'> */}
                                       <div className={left?"drink-right":"drink-right2"}>
 
                                      
@@ -66,9 +68,9 @@ function Drinksec() {
                                           </div>
                                       </div>
                                 
-                                      </div>
+                                      {/* </div> */}
                                   </div>
-                           </div>
+                           {/* </div> */}
                      
 
 
